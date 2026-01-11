@@ -18,7 +18,7 @@ local SETTINGS = {
         ESP = false,
         AimbotKey = Enum.UserInputType.MouseButton2, -- Botão direito
         FOV = 100,
-        TeamCheck = true -- Evita mirar em aliados (se houver times)
+        TeamCheck = false -- Evita mirar em aliados (se houver times)
 }
 
 local holdingAimKey = false
